@@ -1,0 +1,175 @@
+body
+{
+    background-color: #191414;
+    width: 80%;
+    padding-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center
+{
+    position: relative;
+    min-width: 55em;
+    max-width: 55em;
+    min-height: 3.5em;
+    max-height: 3.5em;
+    background-color:#202020;
+    border-radius: 30px;
+    border: 2px solid #202020;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 
+    DEFAULT STYLES FOR ICONS
+*/
+
+.menuicon, .usericon
+{
+    min-width: 50em;
+    max-width: 50em;
+}
+
+/* 
+    BUTTON MENU STYLE
+*/
+
+.buttonmenu
+{
+    position: absolute;
+    margin: 0.85em 0 0 10.8em;
+    width: 3.6em;
+    height: 2.5em;
+    cursor: pointer;
+    float: left;
+    z-index: 1;
+    opacity: 0;
+} 
+
+.menuicon
+{
+    position: absolute;
+    margin: -12.3em 0 0 -14.5em;
+    float: left;
+}
+
+.buttonmenu:hover + .menuicon
+{
+    transform: scale(1.05);
+    filter: brightness(1.5);
+}
+
+/* 
+    BUTTON USER STYLE
+*/
+
+.buttonusericon
+{
+    position: absolute;
+    margin: 0.65em 0 0 22.2em;
+    width: 3.6em;
+    height: 2.9em;
+    cursor: pointer;
+    float: left;
+    z-index: 1;
+    opacity: 0;
+}
+
+.usericon
+{
+    position: absolute;
+    margin: -12.3em 0 0 -5em;
+    float: left;
+}
+
+.buttonusericon:hover + .usericon
+{
+    transform: scale(1.05);
+    filter: brightness(1.5);
+}
+
+/* 
+    BUTTON TIMELINE STYLE
+*/
+
+.timelineicon
+{
+    position: absolute;
+    width: 3.4em;
+    height: auto;
+    margin: 0em 0 0 40.8em;
+    float: left;
+}
+
+.buttontimeline
+{
+    position: absolute;
+    margin: 0.40em 0 0 49em;
+    width: 4em;
+    height: 3.4em;
+    cursor: pointer;
+    float: left;
+    z-index: 1;
+    opacity: 0;
+}
+
+.buttontimeline:hover + .timelineicon
+{
+    transform: scale(1.05);
+    filter: brightness(1.5);
+}
+
+/* 
+    BUTTON FRIENDS STYLE
+*/
+
+.friendsicon
+{
+    position: absolute;
+    width: 3.8em;
+    height: auto;
+    margin: -0.2em 0 0 29em;
+    float: left;
+}
+
+.buttonfriends
+{
+    position: absolute;
+    margin: 0.40em 0 0 34.9em;
+    width: 4.5em;
+    height: 3.4em;
+    cursor: pointer;
+    float: left;
+    z-index: 1;
+    opacity: 0;
+}
+
+.buttonfriends:hover + .friendsicon
+{
+    transform: scale(1.05);
+    filter: brightness(1.5);
+}
+
+/* 
+    OTHER SCREENS SIZE
+*/
+
+@media only screen and (max-width: 768px) 
+{
+    /* Estilos para telas menores que 768px de largura */
+
+    /* body
+    {
+        max-width: 768px;
+        background-color: black;
+    } */
+
+    /* .center
+    {
+        width: 90%;
+        height: 2em;
+        background-color: white;
+        margin: auto;
+    } */
+}
