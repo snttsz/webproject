@@ -1,6 +1,6 @@
 <?php
 
-    $headerPath = __DIR__ . '/includes/header.php';
+    $headerPath = __DIR__ . '/templates/header.php';
 
     if (file_exists($headerPath))
     {
